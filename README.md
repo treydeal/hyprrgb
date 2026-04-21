@@ -33,6 +33,10 @@ cc -O2 -Wall -Wextra \
 ```
 Usage:
 
+Run the interactive version with no arguments to assume eDP-1, or with your monitor's identifier to specify another display:
+```
+./hyprrgb eDP-1
+```
 Run the non-interactive version with your monitor's identifier, and the RGB values you want for the display. As an example, to reduce green:
 ```
 ./hyprrgbd eDP-1 100 50 100
